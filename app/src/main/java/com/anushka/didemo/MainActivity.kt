@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
 //        smartPhone.makeACallWithRecording()
 
         (application as SmartPhoneApplication).smartPhoneComponent.inject(this)
+        smartPhone.makeACallWithRecording()
 
     }
 }
